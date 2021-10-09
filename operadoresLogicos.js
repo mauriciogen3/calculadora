@@ -14,3 +14,12 @@ if (EhAdulto && temCarteirinha === false) {
 } else {
   console.log("MEIA")
 }
+
+
+// ou
+if (EhAdulto && !temCarteirinha) {
+  // a exclamação antes da variavel altera seu resultado para o oposto. se for true fica false.
+  console.log("INTEIRA")
+} else {
+  console.log("MEIA")
+}
