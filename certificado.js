@@ -1,13 +1,13 @@
 var presenca = 100;
 var entregouTodosOsTrabalhos = true;
-var notaSoftSkills = 100;
+var notaSoftSkills = 90;
 var notaProgramacao = 100;
 
 if (presenca >= 75 && entregouTodosOsTrabalhos === true && notaSoftSkills >= 75 && notaProgramacao >= 75) {
 
   console.log("APROVADA")
 
-} else if (presenca <= 75 && entregouTodosOsTrabalhos == true && notaSoftSkills <= 90 && notaProgramacao <= 75) {
+} else if (presenca <= 75 && entregouTodosOsTrabalhos == true && notaSoftSkills >= 90 && notaProgramacao <= 75) {
 
   console.log("APROVADA - MERITO EM SOFT SKILLS")
 
@@ -19,7 +19,7 @@ if (presenca >= 75 && entregouTodosOsTrabalhos === true && notaSoftSkills >= 75 
 
   console.log("APROVADA - NOTA 1000")
 
-} else (presenca < 75 || entregouTodosOsTrabalhos == false || notaSoftSkills <= 75 || notaProgramacao <= 75); {
+} else {
 
   console.log("REPROVADO");
 }
