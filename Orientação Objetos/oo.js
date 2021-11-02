@@ -5,4 +5,11 @@
 processamento(valor1, valor2, valor3)
 
 //OO - FOCO EM FUNCOES QUE MANIPULAM DADOS
-objeto = {}
+objeto = {
+  valor1,
+  valor2,
+  valor3.
+  processamento(){
+    
+  }
+}
