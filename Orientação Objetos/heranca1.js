@@ -1,0 +1,1 @@
+//__proto__ --> acesso o prototipo do meu objeto - o objeto pai, retornando o valor que achar.
